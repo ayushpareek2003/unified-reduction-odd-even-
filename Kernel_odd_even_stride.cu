@@ -26,7 +26,7 @@ __global__ void reduction_sum_normal(float* values,float* sum, int len){
 }
 
 
-#define blockidm 37
+#define blockidm 37  // replace with the number of [element]/2 +1 
 
 __global__ void reduction_sum_shared(float* values,float* sum, int len){
 
