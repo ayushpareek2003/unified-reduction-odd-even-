@@ -1,6 +1,6 @@
 # Unified Reduction
 
-**Unified Reduction** is a CUDA-based library that performs a reduction sum on an array, optimized for both odd and even strides simultaneously. This implementation leverages several performance optimizations to improve the efficiency of parallel reduction algorithms.
+**Unified Reduction** is a CUDA-based function that performs a reduction sum on an array, optimized for both odd and even strides simultaneously. This implementation leverages several performance optimizations to improve the efficiency of parallel reduction algorithms.
 
 ## Key Optimizations:
 - **Thread Coalescing**: Memory access is optimized by coalescing memory requests, ensuring threads access contiguous memory regions.
