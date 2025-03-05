@@ -92,7 +92,7 @@ int main(){
     cudaMalloc((void**)&sum,sizeof(float));
 
 
-    // reduction_sum_normal<<<(1),(a/2)+1>>>(dev,sum,a);
+    reduction_sum_normal<<<(1),(a/2)+1>>>(dev,sum,a);
 
     reduction_sum_shared<<<(1),(a/2)+1>>>(dev,sum,a);
 
